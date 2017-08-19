@@ -1,0 +1,13 @@
+diff --git a/hello.c b/hello.c
+index 39405b6..1bd07bc 100644
+--- a/hello.c
++++ b/hello.c
+@@ -5,7 +5,7 @@ printf("enter any number \n");
+ int n;
+ scanf("&d",n);
+ int fac=0;
+- printf("hello world \n");
++
+ for(int i=1;i<=n;i++)
+ {
+ fac=fac*i;
